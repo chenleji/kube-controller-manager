@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/wise2c-dev/kube-controller-manager-amd64:v1.7.3
+FROM quay.io/attcomdev/kube-controller-manager:v1.7.3
 ARG KUBERNETES_VERSION=v1.8.6
 ENV DEBIAN_FRONTEND=noninteractive \
     container=docker \
